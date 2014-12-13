@@ -6,13 +6,14 @@ date and time input process.
 
 ## Getting started
 
-You have to have [NodeJS](http://nodejs.org) installed, and then it's a
-simple matter of running:
+For your convenience there's a ``Makefile`` that will check and set up your
+environment (NodeJS, Bower, Grunt and tasks). Simply run make to get going:
 
-    npm install
-    grunt
+    make
     
-And you should be taken to the example web site.
+TODO: More coming soon...
+
+Happy hacking!
 
 
 
