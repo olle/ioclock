@@ -14,7 +14,6 @@ module.exports = function(grunt) {
     connect: {
       example: {
         options: {
-          base: 'example',
           open: true,
           livereload: true,
         },
@@ -23,7 +22,7 @@ module.exports = function(grunt) {
 
     watch: {
       example: {
-        files: ['example/**/*'],
+        files: ['*.html', '*.js'],
         options: {
           livereload: true,
         },
